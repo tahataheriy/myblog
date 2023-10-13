@@ -17,4 +17,5 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+       # return self.title +" <br>"+self.text+"<br>"+str(self.created_date)+"<hr>"
 
